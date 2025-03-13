@@ -27,7 +27,7 @@ export function NavLink () {
             link.map(link => {
 
               return (
-                <Link key={link.name} href={link.href} className={`p-[5px] px-[10px] rounded-2xl ${pathname === link.href ? 'bg-amber-500' : ''}`}>
+                <Link key={link.name} href={link.href} className={`p-[5px] px-[10px] rounded-2xl ${pathname === link.href ? 'bg-indigo-700' : ''}`}>
                 {link.name}
                 </Link>
               )
