@@ -1,10 +1,11 @@
-@import "tailwindcss";
-
-
-.insta{
+.ins{
   display: inline-flex; /* Para centrar el icono */
   justify-content: center;
   align-items: center;
+  width: 70px; /* Ajusta el tamaño según sea necesario */
+  height: 70px; /* Ajusta el tamaño según sea necesario */
   border-radius: 50%; /* Para un borde circular */
   background: linear-gradient(45deg, #D62976, #F77737); /* Fondo con gradiente */
+  padding: 10px; /* Espaciado interno */
+
 }
